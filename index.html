@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anubhav & Nishi - Wedding Invitation</title>
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Cormorant+Garamond:wght@300;400;600&family=Great+Vibes&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Music Control Button -->
+    <button id="music-toggle" class="music-toggle" title="Toggle Music">
+        <span class="music-icon">🔊</span>
+    </button>
+
+    <!-- Opening Overlay -->
+    <div id="opening-overlay" class="opening-overlay active">
+        <div class="om-symbol">ॐ</div>
+        <p class="invitation-text">श्री गणेशाय नमः</p>
+        <p class="tap-instruction">जारी रखने के लिए टैप करें।</p>
+    </div>
+
+    <!-- Floating Flowers Container -->
+    <div id="floating-flowers"></div>
+
+    <!-- Main Container -->
+    <div id="main-container" class="main-container">
+
+        <!-- Scene 1: Header -->
+        <div class="scene active" data-scene="1">
+            <div class="scene-card">
+                <div class="mandala-bg">✦</div>
+                <div class="om-header">ॐ</div>
+                <h1 class="main-title">विवाह निमंत्रण।</h1>
+                <div class="decorative-line"></div>
+                <p class="subtitle">सपरिवार</p>
+            </div>
+        </div>
+
+        <!-- Scene 2: Couple Names -->
+        <div class="scene" data-scene="2">
+            <div class="scene-card">
+                <div class="heart-symbol">💕</div>
+                <h2 class="bride-name">निशी त्रिगुणाईत</h2>
+                <p class="parent-info">पुत्री कमल त्रिगुणाईत</p>
+                <div class="rings-symbol">💍</div>
+                <h2 class="groom-name">अनुभव शर्मा</h2>
+                <p class="parent-info">पुत्र स्वर्गीय अविनाश कुमार शर्मा</p>
+                <div class="heart-symbol">💕</div>
+                <p class="wedding-date">21st April 2026</p>
+            </div>
+        </div>
+
+        <!-- Scene 3: Invitation Message -->
+        <div class="scene" data-scene="3">
+            <div class="scene-card">
+                <div class="blessing-icon">🙏</div>
+                <h2>अत्यंत हर्ष के साथ</h2>
+                <div class="decorative-line"></div>
+                <p class="invitation-message">
+                    सभी देवी-देवताओं के आशीर्वाद और अत्यंत हर्ष के साथ, हम आपसे विनम्र निवेदन करते हैं कि आप हमारे विवाह समारोह में अपनी स्नेहिल उपस्थिति से हमें अनुगृहित करें।
+                </p>
+                <p class="family-signature"> - त्रिगुणाईत परिवार</p>
+                <div class="decorative-flourish">✦ ✦ ✦</div>
+            </div>
+        </div>
+
+        <!-- Scene 4: Events Timeline -->
+        <div class="scene" data-scene="4">
+            <div class="scene-card">
+                <div class="decorative-line"></div>
+                <h2>समारोह</h2>
+                <div class="decorative-line"></div>
+            </div>
+        </div>
+
+
+        <div class="scene" data-scene="5">
+            <div class="scene-card">
+                <div class="decorative-line"></div>
+                <div class="event-item">
+                    <div class="event-icon">🪔</div>
+                    <h3>शुभ तिलक</h3>
+                    <p class="event-date">19th April 2026</p>
+                    <p class="event-time">शाम 7:00 बजे से</p>
+                    <p class="event-venue">रामनगरी सेक्टर - 2, पटना - 800025</p>
+                </div>
+                <div class="decorative-line"></div>
+            </div>
+        </div>
+
+
+        <div class="scene" data-scene="6">
+            <div class="scene-card">
+                <div class="decorative-line"></div>
+                <div class="event-item">
+                    <div class="event-icon">🔥</div>
+                    <h3>यज्ञोपवीत एवं हल्दी कलश</h3>
+                    <p class="event-date">20th April 2026</p>
+                    <p class="event-time">11:00 AM</p>
+                    <p class="event-venue">गुरु सहय लाल नगर, रामनगरी मैजिस्ट्रेट कॉलोनी, पटना – 800025</p>
+                </div>
+                <div class="decorative-line"></div>
+            </div>
+        </div>
+
+
+        <div class="scene" data-scene="7">
+            <div class="scene-card">
+                <div class="decorative-line"></div>
+                <div class="event-item">
+                    <div class="event-icon">🎊</div>
+                    <h3>विवाह समारोह</h3>
+                    <p class="event-date">21st April 2026</p>
+                    <p class="event-time">6:00 PM</p>
+                    <p class="event-venue">सुंदर वाटिका, रामनगरी रोड, गुरु सहय लाल नगर, सेक्टर 3-ए, पटना – 800025</p>
+                </div>
+                <div class="decorative-line"></div>
+            </div>
+        </div>
+
+
+
+
+
+
+        <!-- Scene 5: Venue Details -->
+        <div class="scene" data-scene="8">
+            <div class="scene-card">
+                <div class="decorative-line"></div>
+
+                <div class="venue-grid">
+                    <div class="venue-card">
+                        <div class="venue-icon">🏠</div>
+                        <h3>विवाह स्थल</h3>
+                        <p class="venue-address">गुरु सहय लाल नगर, रामनगरी मैजिस्ट्रेट कॉलोनी, पटना – 800025</p>
+                        <a href="https://maps.app.goo.gl/8VZ2i5QsG79iNu89A" target="_blank" class="map-link">View on Map📍</a>
+                    </div>
+
+                    <div class="venue-card">
+                        <div class="venue-icon">💒</div>
+                        <h3>जयमाला एवं प्रीति भोज</h3>
+                        <p class="venue-address">सुंदर वाटिका, रामनगरी रोड, गुरु सहय लाल नगर, सेक्टर 3-ए, पटना – 800025</p>
+                        <a href="https://maps.app.goo.gl/jeNkRx4ZHhxbNjUU8" target="_blank" class="map-link">View on Map
+                            📍</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- Scene 6: Contact Information -->
+        <div class="scene" data-scene="9">
+            <div class="scene-card">
+                <h2>संपर्क</h2>
+                <div class="decorative-line"></div>
+
+                <div class="contact-grid">
+                    <div class="contact-card">
+                        <div class="contact-icon">📱</div>
+                        <h3>कमल त्रिगुणाईत</h3>
+                        <a href="tel:+916201220159" class="phone-link">6201220159</a>
+                    </div>
+
+                    <div class="contact-card">
+                        <div class="contact-icon">📞</div>
+                        <h3>राज त्रिगुणाईत</h3>
+                        <a href="tel:+919122622174" class="phone-link">9122622174</a>
+                    </div>
+                </div>
+
+                <p class="contact-note">किसी भी प्रकार की जानकारी हेतु कृपया निःसंकोच संपर्क करें।</p>
+            </div>
+        </div>
+
+        <!-- Scene 7: Photo Gallery -->
+        <div class="scene" data-scene="10">
+            <div class="scene-card">
+                <h2>आपके आशीर्वाद की प्रतीक्षा है</h2>
+                <div class="decorative-line"></div>
+
+                <div class="gallery-grid" id="gallery">
+                    <img class="gallery-item" src="./images/image.png" style="width:50vh" />
+                </div>
+            </div>
+        </div>
+
+        <!-- Scene 8: Blessing -->
+        <div class="scene" data-scene="11">
+            <div class="scene-card">
+                <div class="ganesha-symbol">🕉️</div>
+                <h2>दिव्य आशीर्वाद</h2>
+                <div class="decorative-line"></div>
+                <p class="blessing-message">
+                    भगवान गणेश सभी विघ्नों को दूर करें और इस पवित्र बंधन को शाश्वत सुख एवं समृद्धि का आशीर्वाद प्रदान करें।
+                </p>
+                <div class="decorative-flourish">✦ ✦ ✦</div>
+            </div>
+        </div>
+
+        <!-- Scene 9: Footer -->
+        <div class="scene" data-scene="12">
+            <div class="scene-card">
+                <div class="decorative-line"></div>
+                <h2>हम आपके साथ इस शुभ अवसर का उत्सव मनाने की हार्दिक प्रतीक्षा कर रहे हैं!</h2>
+                <div class="decorative-line"></div>
+                <div class="om-footer">ॐ</div>
+                <p class="mantra">ॐ शांति शांति शांति</p>
+                <div class="decorative-flourish">✦ ✦ ✦</div>
+                <!-- <p class="restart-hint">Press 'R' to restart</p> -->
+            </div>
+        </div>
+
+        <div class="scene" data-scene="13">
+            <div class="scene-card countdown-timer">
+                <div class="countdown-title">समय</div>
+                <div class="countdown-display">
+                    <div class="countdown-item">
+                        <span id="days">0</span>
+                        <span class="countdown-label">दिन</span>
+                    </div>
+                    <div class="countdown-item">
+                        <span id="hours">0</span>
+                        <span class="countdown-label">घंटे</span>
+                    </div>
+                    <div class="countdown-item">
+                        <span id="minutes">0</span>
+                        <span class="countdown-label">मिनट</span>
+                    </div>
+                    <div class="countdown-item">
+                        <span id="seconds">0</span>
+                        <span class="countdown-label">सेकंड</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Progress Indicator -->
+    <div style="display: none;" id="progress-indicator" class="progress-indicator">
+        <div class="progress-dot" data-scene="1"></div>
+        <div class="progress-dot" data-scene="2"></div>
+        <div class="progress-dot" data-scene="3"></div>
+        <div class="progress-dot" data-scene="4"></div>
+        <div class="progress-dot" data-scene="5"></div>
+        <div class="progress-dot" data-scene="6"></div>
+        <div class="progress-dot" data-scene="7"></div>
+        <div class="progress-dot" data-scene="8"></div>
+        <div class="progress-dot" data-scene="9"></div>
+    </div>
+
+    <!-- Lightbox for Gallery -->
+    <div id="lightbox" class="lightbox">
+        <span class="lightbox-close">&times;</span>
+        <div class="lightbox-content">
+            <span class="lightbox-prev">&#10094;</span>
+            <div class="lightbox-image-container">
+                <div class="lightbox-placeholder">🌸</div>
+            </div>
+            <span class="lightbox-next">&#10095;</span>
+        </div>
+    </div>
+
+    <!-- Background Music -->
+    <audio id="background-music" autoplay loop>
+        <source id="audio-source" src="" type="audio/mpeg">
+    </audio>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
