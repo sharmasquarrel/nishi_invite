@@ -1,6 +1,6 @@
 // ===== State Management =====
 let currentScene = 1;
-const totalScenes = 13;
+const totalScenes = 16;
 let isTransitioning = false;
 
 // Touch handling for swipe gestures
@@ -56,7 +56,7 @@ setTimeout(() => {
 function setUpAutoScreenChange(){
   setInterval(() => {
     nextScene();
-  }, 20000)
+  }, 10000)
 }
 
 
