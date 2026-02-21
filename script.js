@@ -9,7 +9,7 @@ let touchStartY = 0;
 let touchEndX = 0;
 let touchEndY = 0;
 
-const songs = ["song1.mp3", "song2.mp3", "song3.mp3", "song4.mp3", "song5.mp3"];
+const songs = ["song_kudmai.mp3"];
 
 // ===== DOM Elements =====
 const openingOverlay = document.getElementById("opening-overlay");
@@ -31,8 +31,7 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 setTimeout(() => {
-  const randomSong =
-    "images/" + songs[Math.floor(Math.random() * songs.length)];
+  const randomSong = "images/" + songs[0];
   const audio = document.getElementById("background-music");
   audio.src = randomSong;
   audio.volume = 1;
