@@ -1,6 +1,6 @@
 // ===== State Management =====
 let currentScene = 1;
-const totalScenes = 16;
+const totalScenes = 15;
 let isTransitioning = false;
 
 // Touch handling for swipe gestures
