@@ -55,7 +55,7 @@ setTimeout(() => {
 function setUpAutoScreenChange(){
   setInterval(() => {
     nextScene();
-  }, 10000)
+  }, 5000)
 }
 
 
